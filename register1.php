@@ -36,6 +36,6 @@
         <div class="link">Already signed up? <a href="login.php">Login</a></div>
     </div>
 
-    <script src="js/register.js"></script>
+    <script src="register.js"></script>
 </body>
 </html>
