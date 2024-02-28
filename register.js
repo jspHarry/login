@@ -10,7 +10,7 @@ form.onsubmit = (e) => {
 submit.onclick = () => {
 
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "./php/register.php" , true);
+    xhr.open("POST", "register.php" , true);
     xhr.onload = () => {
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status === 200){
